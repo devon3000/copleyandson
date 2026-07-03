@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "generated_at_utc": "2026-07-02T04:52:12.528Z",
+  "generated_at_utc": "2026-07-03T01:22:18.011Z",
   "reveal_date": "2026-09-30",
   "note": "Full holdings published on reveal_date. Verify: SHA-256({ date, strategy, target }) === signal_sha256.",
   "strategies": [
@@ -11,7 +11,7 @@
       "gate_active": false,
       "equity_pct": 100,
       "n_positions": 5,
-      "signal_sha256": "ff1aa7b6881ebf23ba4bbdf8d5aeb2276e6a9bc3d95f094fe7fbc3618d0e6d31"
+      "signal_sha256": "17a846d3eff6b50f577332e4c3ce272cac5379a2a4609aa3351e90d61a5ba5ab"
     }
   ]
 }
