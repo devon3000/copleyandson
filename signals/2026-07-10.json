@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-10",
+  "generated_at_utc": "2026-07-10T04:45:29.856Z",
+  "reveal_date": "2026-10-08",
+  "note": "Full holdings published on reveal_date. Verify: SHA-256({ date, strategy, target }) === signal_sha256.",
+  "strategies": [
+    {
+      "strategy": "Cursor Optimal",
+      "rebalance_triggered": true,
+      "trigger_reason": "scheduled",
+      "gate_active": false,
+      "equity_pct": 85.32,
+      "n_positions": 5,
+      "signal_sha256": "1e179ca3f18992c30d452396862ba1fdcb97cdda35e9948b7bb7aacd1eef61d1"
+    }
+  ]
+}
