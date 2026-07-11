@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at_utc": "2026-07-10T04:45:29.856Z",
+  "generated_at_utc": "2026-07-11T01:05:43.413Z",
   "reveal_date": "2026-10-08",
   "note": "Full holdings published on reveal_date. Verify: SHA-256({ date, strategy, target }) === signal_sha256.",
   "strategies": [
@@ -9,9 +9,9 @@
       "rebalance_triggered": true,
       "trigger_reason": "scheduled",
       "gate_active": false,
-      "equity_pct": 85.32,
+      "equity_pct": 85.17,
       "n_positions": 5,
-      "signal_sha256": "1e179ca3f18992c30d452396862ba1fdcb97cdda35e9948b7bb7aacd1eef61d1"
+      "signal_sha256": "71628857109caed1302e89632081bee1d745953a76ddba23bc159765c7dad280"
     }
   ]
 }
