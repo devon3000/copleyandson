@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v3.9",
+  "version_major": 3,
+  "version_minor": 9,
+  "config_sha256": "04c4f1e1822cf033e27fe12589ccdbf37a252041f764de7f278cd1ab013cf241",
+  "engine_sha256": "c0292f2b6f7a7d43988e66aac2c87b36d567ef5705f43b5153f264f32ae6ef25",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-18T04:09:46.291+00:00",
+  "released_by": "release:champion",
+  "changelog": "v3.9 (aggressive tier): sharpen the defensive switch (tau 0.05->0.03) + hold max equity in a confirmed uptrend (uptrend_ceiling 0.1->0.0) + lengthen the cross-momentum lookback (15->18mo). +1.6pp full-cycle CAGR (16.2->17.8%) with worst-12mo UNCHANGED (-11.9%); maxDD -19.6->-22.3% is a deliberate aggressive-tier spend of the crowding-tune floor. Sub-period validated in both halves; turnover flat. Part of the ETF-only consolidation."
+}

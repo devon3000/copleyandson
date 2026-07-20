@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v4.1",
+  "version_major": 4,
+  "version_minor": 1,
+  "config_sha256": "9f8309a09f97fcaa63c27a88052adec2cdfb30daa0e589a0e9145605f27264d1",
+  "engine_sha256": "c0292f2b6f7a7d43988e66aac2c87b36d567ef5705f43b5153f264f32ae6ef25",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-18T04:24:28.908+00:00",
+  "released_by": "release:champion",
+  "changelog": "v4.1 (calm tune): negative absolute-momentum hurdle (0 -> -0.03) — the cash gate fires more readily, so the book steps aside sooner. Distinctly calmer Preserve: worst-12mo -8.3 -> -6.6%, Copley 1.71 -> 2.10, maxDD flat (-17.8%), for -0.5pp CAGR (14.3 -> 13.8%). Wins outright in the 2008 crisis (13.7/-5.3/Copley 2.59) and beats 60/40 in both sub-period halves. Part of the ETF-only consolidation — pairs with ETF-G v3.9 to place the two products at distinct frontier points."
+}

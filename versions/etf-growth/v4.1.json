@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v4.1",
+  "version_major": 4,
+  "version_minor": 1,
+  "config_sha256": "46d04cb07a3b13dd53cbba41938495d0c59790df89488d1264c8ed1987618f1e",
+  "engine_sha256": "241f9fd24cccbe576d8e78f7a1bee8d92fb544034a25720c46c042dfab9920d8",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-20T18:21:20.241+00:00",
+  "released_by": "release:champion",
+  "changelog": "v4.1 — Deconcentration for less short-term pain. Caps single-fund concentration (EquityCommodity max_weight 50→30%) and adds a correlation-cluster cap (cluster_cap) plus a crowding-regime deconcentrator (crowd_deconcentrate) to spread a topping, over-crowded book; knobs re-centered for the 30% cap (crowd_deconcentrate gate 0.6, defensive tau 0.02). vs v4.0: CAGR 17.78→17.52%, worst-12mo −11.9→−8.6%, Copley 1.50→2.03, MaxDD unchanged (−22.3%), GFC/COVID/2022 crash protection unchanged. Robust in both sub-period halves. Adds advisory warn_windows (12-window mild set). Research: strategies/short-term-pain-research.md."
+}

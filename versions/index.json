@@ -1,0 +1,34 @@
+[
+  {
+    "strategy_slug": "etf-growth",
+    "strategy": "ETF Growth",
+    "version": "v3.9",
+    "config_sha256": "04c4f1e1822cf033e27fe12589ccdbf37a252041f764de7f278cd1ab013cf241",
+    "engine_sha256": "c0292f2b6f7a7d43988e66aac2c87b36d567ef5705f43b5153f264f32ae6ef25",
+    "released_at": "2026-07-18T04:09:46.291+00:00"
+  },
+  {
+    "strategy_slug": "etf-growth",
+    "strategy": "ETF Growth",
+    "version": "v4.0",
+    "config_sha256": "04c4f1e1822cf033e27fe12589ccdbf37a252041f764de7f278cd1ab013cf241",
+    "engine_sha256": "c0292f2b6f7a7d43988e66aac2c87b36d567ef5705f43b5153f264f32ae6ef25",
+    "released_at": "2026-07-19T15:20:07.193+00:00"
+  },
+  {
+    "strategy_slug": "etf-growth",
+    "strategy": "ETF Growth",
+    "version": "v4.1",
+    "config_sha256": "46d04cb07a3b13dd53cbba41938495d0c59790df89488d1264c8ed1987618f1e",
+    "engine_sha256": "241f9fd24cccbe576d8e78f7a1bee8d92fb544034a25720c46c042dfab9920d8",
+    "released_at": "2026-07-20T18:21:20.241+00:00"
+  },
+  {
+    "strategy_slug": "etf-preserve",
+    "strategy": "ETF Preserve",
+    "version": "v4.1",
+    "config_sha256": "9f8309a09f97fcaa63c27a88052adec2cdfb30daa0e589a0e9145605f27264d1",
+    "engine_sha256": "c0292f2b6f7a7d43988e66aac2c87b36d567ef5705f43b5153f264f32ae6ef25",
+    "released_at": "2026-07-18T04:24:28.908+00:00"
+  }
+]
