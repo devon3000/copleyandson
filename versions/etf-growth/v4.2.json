@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v4.2",
+  "version_major": 4,
+  "version_minor": 2,
+  "config_sha256": "5144260cc25eb330c16eab6438e09fc527d47033d445c0ab2f4ddd9746f37e3a",
+  "engine_sha256": "241f9fd24cccbe576d8e78f7a1bee8d92fb544034a25720c46c042dfab9920d8",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-21T01:58:39.22+00:00",
+  "released_by": "release:champion",
+  "changelog": "v4.2 — Lever-audit simplification + tau retune. Dropped the dead k_per_allocation_pct (Bond dynamic-k, a no-op) and retuned allocator tau 0.02→0.008 (v4.1's sweep only tested tau≥0.02, missing the better low-tau regime; the gain plateaus below 0.010, robust in both sub-period halves). Full-cycle vs v4.1: CAGR 17.52→18.16%, worst-12mo −8.6→−7.9%, Martin 3.30→3.64, MaxDD unchanged (−22.3%). cluster_cap kept. See docs/engineering/lever-audit-2026-07.md."
+}

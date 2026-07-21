@@ -24,11 +24,27 @@
     "released_at": "2026-07-20T18:21:20.241+00:00"
   },
   {
+    "strategy_slug": "etf-growth",
+    "strategy": "ETF Growth",
+    "version": "v4.2",
+    "config_sha256": "5144260cc25eb330c16eab6438e09fc527d47033d445c0ab2f4ddd9746f37e3a",
+    "engine_sha256": "241f9fd24cccbe576d8e78f7a1bee8d92fb544034a25720c46c042dfab9920d8",
+    "released_at": "2026-07-21T01:58:39.22+00:00"
+  },
+  {
     "strategy_slug": "etf-preserve",
     "strategy": "ETF Preserve",
     "version": "v4.1",
     "config_sha256": "9f8309a09f97fcaa63c27a88052adec2cdfb30daa0e589a0e9145605f27264d1",
     "engine_sha256": "c0292f2b6f7a7d43988e66aac2c87b36d567ef5705f43b5153f264f32ae6ef25",
     "released_at": "2026-07-18T04:24:28.908+00:00"
+  },
+  {
+    "strategy_slug": "etf-preserve",
+    "strategy": "ETF Preserve",
+    "version": "v4.2",
+    "config_sha256": "9f8eb518326d55b473f73667ea55d6a73a813c1e4b68f7ce35f23690d5ac5bb5",
+    "engine_sha256": "241f9fd24cccbe576d8e78f7a1bee8d92fb544034a25720c46c042dfab9920d8",
+    "released_at": "2026-07-21T02:02:28.866+00:00"
   }
 ]

@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v4.2",
+  "version_major": 4,
+  "version_minor": 2,
+  "config_sha256": "9f8eb518326d55b473f73667ea55d6a73a813c1e4b68f7ce35f23690d5ac5bb5",
+  "engine_sha256": "241f9fd24cccbe576d8e78f7a1bee8d92fb544034a25720c46c042dfab9920d8",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-21T02:02:28.866+00:00",
+  "released_by": "release:champion",
+  "changelog": "v4.2 — Lever-audit simplification. Cleared two dead levers: min_position_pct (a no-op) and the correlation-dedup (menu tau→1.0; redundant with the tail screen, which does the menu screening). Full-cycle vs v4.1: CAGR 13.78→13.87%, worst-12mo −6.6→−6.4%, MaxDD −17.2→−16.4%, Martin 3.00→3.09 — a small improvement on every axis. cluster_cap and vol_suppressor kept (the latter holds ~1pp of 2008 tail). See docs/engineering/lever-audit-2026-07.md."
+}
