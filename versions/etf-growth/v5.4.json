@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v5.4",
+  "version_major": 5,
+  "version_minor": 4,
+  "config_sha256": "eda673c838cf29fcf8d1713c89911659f65a7bb8a7feb27adcc1cf665fcc3e28",
+  "engine_sha256": "ccf999ceaff1e9b2e14210abb5ac9e6fcdc3d64f00291a7aa7fb9c7e0c1445ce",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-21T21:13:06.422+00:00",
+  "released_by": "release:champion",
+  "changelog": "v5.4: equity max_weight_pct 30->50, fast_lookback_months 4->3. CAGR 18.61%->19.76%, Martin 3.629->3.806, sCopley 1.99->2.15; cvar3m/6m/12m all improve (-9.33/-8.51/-2.47 -> -9.19/-8.04/-1.66); maxDD -22.28%->-22.26%; worst-3m/12mo move <0.07pp. Both halves improve independently (Martin H1 3.34->3.58, H2 4.04->4.08). Also arms min_position_pct: 1, which was unset on this champion while every other config had it, leaving sub-1% dust in 16 of 259 months. Refuted en route: ceiling (max defensive fraction) is strictly dominated - lowering it widens worst-12mo to -29% while CAGR FALLS to 15.7%; top_k, vol_suppressor_k, xmom_lookback, slow_lookback and looser cluster_cap all worse.\n\n[D6 regression accepted on RDD3y, worst-3y excess: RDD3y 2.58%->2.88% and worst-3y excess are accepted because the trade improves the stated objective (Martin) and every aggregate pain measure (all three CVaR horizons) while the extrema and maxDD are unchanged, and both halves improve independently. The regression is in relative-to-SPY downside dispersion, driven by holding larger positions in the leaders during strong SPY runs - it is upside dispersion asymmetry, not deeper absolute drawdown. Growth remains at 17% of its documented worst-12mo budget (-8.01% against SPY's -47.35%).]"
+}

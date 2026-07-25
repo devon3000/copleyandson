@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v5.1",
+  "version_major": 5,
+  "version_minor": 1,
+  "config_sha256": "d0195f637863567c03ee1742f70e3abf5144384e0f4d61f3e612884f3496ae26",
+  "engine_sha256": "ccf999ceaff1e9b2e14210abb5ac9e6fcdc3d64f00291a7aa7fb9c7e0c1445ce",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-21T17:03:01.716+00:00",
+  "released_by": "release:champion",
+  "changelog": "v5.1 — sleeve-shape tune: per-fund cap 60%->45%. Completes the retune against the corrected cascade begun in v5.0. Swept top_k x max_weight_pct on the v5.0 base: top_k 6 is CONFIRMED CORRECT (k4, k8 and k10 are all worse on the objective; the top three configs by sCopley are all k6), so only the per-fund cap moved. vs v5.0: sCopley 1.759->1.785, CAGR 12.95->13.04%, cvar3m -7.37->-7.30%, worst-12mo -8.92->-7.71% (a full 1.21pp), turnover 4.739->4.720, and the concentration profile improves materially — max single equity position 48.0%->36.0% with months above 40% going from 6 to ZERO. Martin flat at 3.31. Costs the two trailing instruments: RDD3y 0.030->0.034 and cohorts-still-behind-60/40 5.96->7.11%. Disclosed rather than buried; the same mixed-D6 pattern seen elsewhere in the 5.x line, taken here because worst-12mo, concentration and the stated worst-quarter objective all improve together. Also records a clean frontier: book width trades tracking against worst-quarter pain (k4 gives RDD3y 0.021 and cohorts-behind 2.34% but sCopley only 1.664), reaching the same axis as uptrend_ceiling by a different route. diff:holdings 32/247 rebalances changed, sum of held-period deltas +1.42pp; stress gate passes."
+}

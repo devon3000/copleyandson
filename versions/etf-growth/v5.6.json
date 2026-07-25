@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v5.6",
+  "version_major": 5,
+  "version_minor": 6,
+  "config_sha256": "47cfe7b6a3bae476e548bd9024be43d4664b5f504e25e8f99acb484400c8f2d2",
+  "engine_sha256": "b6bc3ac603de570f24cd2eae791d9b56cd5c5d92bebad1b415f831cad53576d2",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-22T03:31:43.639+00:00",
+  "released_by": "release:champion",
+  "changelog": "v5.6: bond sleeve smaDistance sma_days 100->35, equity fast_lookback_months 3->2. Both banked from separate sweeps and shipped together rather than as two releases nobody would perceive. CAGR 20.04%->20.21%, Martin 3.839->3.900, sCopley 2.165->2.219, cvar3m/6m/12m all improve (-9.26/-8.25/-1.28 -> -9.11/-8.09/-0.83), worst-3m -20.63->-20.22%, worst-12mo -8.01->-7.54%, maxDD unchanged at -22.26%. Excess vs SPY improves in BOTH regimes (bull +7.61->+7.66, bear +11.95->+12.74). All four D6 instruments pass; longest-underwater improves 1379->1203 days. Costs ~1.4pp of the 2008 crisis window (+21.40->+20.00), still far above the gate. Bond-sleeve speed is per-model: 100 is too slow for a sleeve whose job is rotating duration, but the optimum differs by exposure - Growth needs 35 (bonds are 8.7% of the book, live only in sharp defensive months) where Preserve wants 80. Refuted and NOT shipped this round: correlation_taper on the current Growth book (every setting loses 1.2-4.3pp CAGR - it dominates as a REPLACEMENT per the-walk VII, not as an addition), and cluster_cap subset_mode (buys 1.4pp maxDD and 2.8pp of 2008, costs 0.64pp CAGR and degrades RDD3y 2.84->3.82). Both kept on the branch as measured negatives."
+}

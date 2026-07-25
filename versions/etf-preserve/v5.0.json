@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v5.0",
+  "version_major": 5,
+  "version_minor": 0,
+  "config_sha256": "01314f686968d10a2c64c8c7495cfa9a40ce0c3546ef730976c4e712ff05f501",
+  "engine_sha256": "ccf999ceaff1e9b2e14210abb5ac9e6fcdc3d64f00291a7aa7fb9c7e0c1445ce",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-21T16:20:18.733+00:00",
+  "released_by": "release:champion",
+  "changelog": "v5.0 — retuned against the corrected cascade. MAJOR: Preserve's parameters were fitted around a defect. Until the ladder (Growth v5.3) the cascade routed concentration-trimmed weight straight to bonds, so the concentration controls were set LOOSE to avoid bleeding equity. With trims now refilling from the next eligible correlation-screened name, tighter control is affordable — and measurably better. Changes: cluster_cap.cap 0.6->0.40, overflow_refill.max_corr 0.60->0.50 (a stricter refill bar beat looser at every cap tested), uptrend_ceiling 0.2->0.30. Objective is sCopley (CAGR/|cvar3m|) per the worst-QUARTER promise — a retiree drawing down can absorb a bad month but not a bad quarter. vs v4.2 (pre-ladder): sCopley 1.706->1.759, Martin 3.091->3.313, cvar3m -8.13->-7.37%, worst-3m -15.93->-14.12%, cohorts-still-behind-60/40 6.85->5.96%, concentration p90 32.5->31.1%. Costs CAGR 13.87->12.95% (still far above 60/40's 8.13%) and worst-12mo -6.35->-8.92%, which remains well inside the -14.35% budget (half of 60/40's -28.70%). RDD3y 0.028->0.030 is marginally worse — the one instrument moving against us, disclosed rather than buried. diff:holdings 215/247 rebalances changed (three parameters moved); stress gate passes; concentration profile improved. The uptrend_ceiling frontier is steep and worth recording: uc .1 gives CAGR 14.89% but cvar3m -9.15% and worst-3m -18.46%; uc .3 gives CAGR 12.95% with cvar3m -7.37% and worst-3m -14.12%. Preserve sits at the defensive end BY DESIGN — that is the product."
+}

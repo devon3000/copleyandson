@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v5.1",
+  "version_major": 5,
+  "version_minor": 1,
+  "config_sha256": "17743acd07464aedf3a4cc6d686b112a74c90b00b389444e896d901cdf7c3daa",
+  "engine_sha256": "b55d0e796f72926556ec02a8fd0368489d29c3b5034727575e11ae29eca5861d",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-21T14:24:22.627+00:00",
+  "released_by": "release:champion",
+  "changelog": "v5.1 — withdraw the correlation taper; keep the allocator retune. v5.0 violated product-decision D6 ('never trail SPY for long stretches', a first-class acceptance bar): RDD3y 0.057->0.094, worst-3y-excess -39.2->-53.1%, longest-underwater-vs-SPY 1591->2629 days, share of start cohorts still behind SPY at the end 20.4->26.4%. I promoted v5.0 without measuring D6 — the checklist had the stress gate, diff:holdings, both-halves and concentration, but not the trailing bar. A 14-config sweep isolates the cause: the ALLOCATOR retune (tau .008->.004, vol_suppressor_k 20->40) is innocent and free — CAGR 18.16->18.31%, Martin 3.642->3.703, RDD3y and longest-underwater unchanged. The TAPER is entirely responsible, monotonically: onset .80 -> RDD3y .094, .85 -> .063-.069, .90 -> no binding at all (Growth's max avgCorr is 0.89). There is no free region, because trimming correlated equity during a bull IS trailing SPY during a bull. v5.1 therefore keeps the free half and withdraws the costly half. The taper mechanism and its evidence stand (correlation predicts forward co-drawdown t=-4.51 with zero return effect t=0.01); the fix is to scale it by the trend regime so it cannot act in strong uptrends — next build. Net vs v4.3: CAGR +0.15pp, Martin +0.061, D6 intact."
+}

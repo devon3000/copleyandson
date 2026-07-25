@@ -1,0 +1,13 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v5.4",
+  "version_major": 5,
+  "version_minor": 4,
+  "config_sha256": "adab8c290333865560a13f39de3cde1ef45825bc86cdbf6299a2764b252936fa",
+  "engine_sha256": "b6bc3ac603de570f24cd2eae791d9b56cd5c5d92bebad1b415f831cad53576d2",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-22T03:55:02.609+00:00",
+  "released_by": "release:champion",
+  "changelog": "v6.0: ARCHITECTURE REPLACEMENT. Preserve is now ETF Growth v5.6 plus a permanent defensive floor of 0.40, with the bond sleeve's smaDistance at sma_days 80. The previous Preserve allocator, sleeve shapes, signal parameters and concentration stack are all retired in favour of Growth's. Major, per the versioning rule: this is a methodology replacement, not parameter tuning. Rationale: measured on withdrawal outcomes rather than CVaR, the old architecture was strictly dominated - Growth + floor matched its maxDD while beating it on every rolling window (the-walk v5 XIX/XXV). vs incumbent v5.3: CAGR 12.75%->15.43%, Martin 3.543->4.774, sCopley 1.933->2.714, cvar3m/6m/12m -6.60/-6.20/-2.99 -> -5.68/-4.83/+0.18, worst-3m -13.88->-12.40%, worst-6m -9.61->-8.82%, worst-12mo -7.44->-5.68%. All four D6 instruments improve sharply: RDD3y 2.97->0.73, worst-3y excess -22.36->-11.00%, longest underwater 1622->1177 days, cohorts-behind 5.67->1.97%. Worst 10-year 4pc-withdrawal outcome 1.83x->2.46x, deepest retiree trough 88%->90%. Costs 0.63pp of maxDD (-15.15->-15.78%) and turnover 4.95->5.39. Rejected in tuning: the correlation_taper, which on this book trades 1.5pp of worst-12mo (-5.68->-7.18) for 0.6pp of maxDD - the known interaction where taper-freed equity weight reflates bonds straight into the 2022 bond bear; top_k 6 (worst-6m -13.63%); max_weight 35 (worst-12mo -7.09%). PRODUCT CONSEQUENCE, stated plainly: Preserve now holds Growth's exact picks with more ballast. The two models are the same bet at two sizes, perfectly correlated - honest and conventional for a conservative/aggressive pair, but a subscriber holding both gets leverage selection, not diversification."
+}
