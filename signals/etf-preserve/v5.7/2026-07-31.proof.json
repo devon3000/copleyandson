@@ -1,0 +1,21 @@
+{
+  "stream": "etf-preserve/v5.7",
+  "date": "2026-07-31",
+  "generated_at_utc": "2026-07-31T04:13:32.089Z",
+  "reveal_date": "2026-10-29",
+  "note": "Commitment only (holdings withheld); signing not yet active. Actual trades revealed on reveal_date.",
+  "strategy": {
+    "strategy": "ETF Preserve (Champion)",
+    "version": "v5.7",
+    "config_sha256": "2e0271f603a4708d3bde692f348bdfded017f685a6eb61056ebb78f764443413",
+    "engine_sha256": "09ae1be65712ad59f264021f2c98334c1ceb8debc24dccc9f2636357e399c6b8",
+    "engine_sha256_run": "1eb0a27cfb16fd2796a91365332a4f31e9947ba2462de1153bd6b8c9e3a1eba6",
+    "engine_ok": false,
+    "rebalance_triggered": true,
+    "trigger_reason": "scheduled",
+    "gate_active": false,
+    "equity_pct": 60,
+    "n_positions": 10,
+    "signal_sha256": "339e0dbe6d60c585b702f4424242590b93e8ee6fcb5ba87d9a5e368595608aca"
+  }
+}
