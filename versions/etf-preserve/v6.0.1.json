@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v6.0.1",
+  "version_major": 6,
+  "version_minor": 0,
+  "version_patch": 1,
+  "config_sha256": "0e7cd0087ba890ffa267e8fffbedf4dae63fc1e6a8b78bed38055b6beeaf2566",
+  "engine_sha256": "c518fbb626c3ea1afec82aabc27ad181dc1fa65888a05c0cc219bc951acbf693",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-01T06:12:50.837Z",
+  "released_by": "release:champion",
+  "changelog": "v6.0.1 byte-exact patch: decision-snapshot instrumentation — record every special-purpose mechanism that fires (extension_taper / downtrend_floor / correlation_taper overlays; capture extension_taper.trimmed, previously discarded). No behavior change (pnpm diff:engine empty, 490 tests). Engine da9da5→c518fbb6."
+}
