@@ -1,0 +1,23 @@
+{
+  "stream": "etf-growth/v6.0",
+  "date": "2026-07-31",
+  "generated_at_utc": "2026-08-01T01:12:04.106Z",
+  "reveal_date": "2026-10-29",
+  "note": "Commitment only (holdings withheld); signing not yet active. Actual trades revealed on reveal_date.",
+  "strategy": {
+    "strategy": "ETF Growth (Champion)",
+    "version": "v6.0",
+    "config_sha256": "8c9ee1cfbed06fc5bcc804ce55f227f281958cc8bac8591b9d64136230297ce5",
+    "as_of_date": "2026-07-31",
+    "effective_date": "2026-08-03",
+    "engine_sha256": "1eb0a27cfb16fd2796a91365332a4f31e9947ba2462de1153bd6b8c9e3a1eba6",
+    "engine_sha256_run": "da9da51f6110dba378f0360d4efcbe3045813617742eb4f3b9d7258e2732d65c",
+    "engine_ok": false,
+    "rebalance_triggered": true,
+    "trigger_reason": "scheduled",
+    "gate_active": false,
+    "equity_pct": 100,
+    "n_positions": 8,
+    "signal_sha256": "60e745aa9144f09ca08f59e6fc88e7dc9405f9908792206faf953bfbe6c8cb75"
+  }
+}
