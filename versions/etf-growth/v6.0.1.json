@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v6.0.1",
+  "version_major": 6,
+  "version_minor": 0,
+  "version_patch": 1,
+  "config_sha256": "8c9ee1cfbed06fc5bcc804ce55f227f281958cc8bac8591b9d64136230297ce5",
+  "engine_sha256": "c518fbb626c3ea1afec82aabc27ad181dc1fa65888a05c0cc219bc951acbf693",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-01T06:11:06.580Z",
+  "released_by": "release:champion",
+  "changelog": "v6.0.1 byte-exact patch: decision-snapshot instrumentation — record every special-purpose mechanism that fires (extension_taper / downtrend_floor / correlation_taper overlays; capture extension_taper.trimmed, previously discarded). No behavior change (pnpm diff:engine empty, 490 tests). Engine da9da5→c518fbb6."
+}
