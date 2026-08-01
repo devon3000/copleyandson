@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v6.0",
+  "version_major": 6,
+  "version_minor": 0,
+  "version_patch": 0,
+  "config_sha256": "0e7cd0087ba890ffa267e8fffbedf4dae63fc1e6a8b78bed38055b6beeaf2566",
+  "engine_sha256": "1eb0a27cfb16fd2796a91365332a4f31e9947ba2462de1153bd6b8c9e3a1eba6",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-31T05:12:14.647+00:00",
+  "released_by": "release:champion",
+  "changelog": "v6.0 — Sliding continuous lookback (regime_softness): the regime-adaptive momentum's hard fast/slow lookback gate becomes a continuous slide. Full-cycle vs v5.7: CAGR 15.9->16.4, Martin 6.90->7.82, worst-12mo -3.8->-2.9, maxDD -10.3->-9.2. (The market-keyed downtrend floor is a no-op given Preserve's 0.40 static floor and is not applied.) D6: any slight underwater-duration change accepted deliberately for the trailing-consistency and Martin gains.\n\n[major: New mechanism: continuous sliding-lookback (regime_softness) on the selection axis.]\n\n[D6 regression accepted on worst-3y excess: The sliding lookback may lengthen the worst underwater stretch slightly while improving trailing-consistency; accepted as a negligible duration cost for the large Martin/CAGR gains (Martin 6.90->7.82, CAGR 15.9->16.4, worst-12mo -3.8->-2.9, maxDD -10.3->-9.2).]"
+}

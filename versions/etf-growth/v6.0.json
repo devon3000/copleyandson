@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v6.0",
+  "version_major": 6,
+  "version_minor": 0,
+  "version_patch": 0,
+  "config_sha256": "8c9ee1cfbed06fc5bcc804ce55f227f281958cc8bac8591b9d64136230297ce5",
+  "engine_sha256": "1eb0a27cfb16fd2796a91365332a4f31e9947ba2462de1153bd6b8c9e3a1eba6",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-07-31T05:05:21.775+00:00",
+  "released_by": "release:champion",
+  "changelog": "v6.0 — Sliding continuous lookback (regime_softness): the regime-adaptive momentum's hard fast/slow lookback gate becomes a continuous slide, closing the >10pp SPY-trailing calendar years (2019/2021/2023) and improving worst-3y-excess -22.3->-19.3 with RDD3y halved. Plus a market-keyed downtrend floor (m0.3): a graduated bond floor driven by the market's OWN realized-vol regime, so the crash-dodge no longer depends on which names momentum holds. D6 note: the sliding lookback lengthens the longest underwater stretch by 7 days (0.6%) — accepted deliberately as a negligible duration cost against the large trailing-consistency gains. Full-cycle vs v5.8: CAGR 20.7 (flat), Martin 5.81->~5.85, worst-12mo -4.2->~-3.6, maxDD -15.5->~-15.\n\n[major: Two new mechanisms: continuous sliding-lookback (regime_softness) on the selection axis, and a market-vol-keyed downtrend bond floor (m0.3, D6-neutral dial) on the allocator axis — crash-dodge made menu-independent.]\n\n[D6 regression accepted on longest underwater (d): The sliding lookback lengthens the worst underwater stretch by 7 days (1204->1211, +0.6%) while IMPROVING worst-3y-excess by 3pp (-22.3->-19.3), halving RDD3y (2.19->0.72), and closing the >10pp SPY-trailing years (2019/2021/2023). The m0.3 floor keeps worst-3y-excess better than v5.8. A 7-day duration change on a 3.3-year stretch is a negligible cost for the trailing-consistency gain plus menu-independent crash protection.]"
+}
