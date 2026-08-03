@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v6.1",
+  "version_major": 6,
+  "version_minor": 1,
+  "version_patch": 0,
+  "config_sha256": "d0f4fbd70315e4c8b8520692f5661fe14d32754869f413f877c914faae12bec3",
+  "engine_sha256": "8adb1fde57f1c8e94c7bf1bf8f267a460ca717c953e9934f2b1ef9fbd76770c4",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-03T00:35:03.407Z",
+  "released_by": "release:champion",
+  "changelog": "Reduce avg holdings 5.6→4.9 via per-sleeve equity min_position_pct=8 (bonds stay diversified). Loss metrics improve: worst-12mo −4.3→−3.7, worst calendar year +1.4→+2.4 (0 down years/21), Martin 5.21→5.26; intra-period give w3m −0.7pp, maxDD −0.9pp. D6 relative-to-60/40 regresses (foregone gains in bulls) — accepted per Preserve's loss-averse mandate."
+}
