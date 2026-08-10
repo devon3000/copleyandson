@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v6.3",
+  "version_major": 6,
+  "version_minor": 3,
+  "version_patch": 0,
+  "config_sha256": "848f637a11712c202000f005ece96a4a01f4344d19995e70bf6266dfe977c6b4",
+  "engine_sha256": "e8dc438ba00444d1a4466395d123ed51b38826df69b2b0b3c97a8103e294b724",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-10T06:17:54.743Z",
+  "released_by": "release:champion",
+  "changelog": "Dust and cap bundle. (1) Bond sleeve arms k_per_allocation_pct: 10, which Preserve already had — Growth carried a sub-1% position in 29 of 248 reallocations against Preserve's 0, including three bond slivers under 1% each on 2024-02-01. (2) min_position_yields_to_breadth is replaced by min_position_breadth_pct: 6, a REDUCED floor rather than an off-switch: suppressing the floor entirely in crowd months also discarded the dust-trimming it exists for. (3) min_sleeve_pct: 2 sweeps a de-minimis sleeve budget UP rather than down, because routing a fraction of a percent toward safety publishes a risk decision we did not make. (4) dynamic_k and the per-sleeve floor now respect the per-fund cap when redistributing after a drop — they were rescaling survivors blindly and breaching the crowd-tightened cap in 4 of 248 months (ITA 53.02% against a 49.84% cap). CAGR 20.93% -> 20.99%, Martin 4.087 -> 4.098, worst-12mo -5.14% -> -5.31%, maxDD unchanged; cap violations 4 -> 0; sub-2% dust months 34 -> 8; trailing-12 holdings 6.00 -> 5.25. All four D6 instruments improve, including longest-underwater 1198d -> 913d. Breadth 6 deliberately sits below 21% CAGR: 4 and 5 clear it, but 5's margin is 0.002pp, inside one-day timing noise."
+}
