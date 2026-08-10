@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v6.2",
+  "version_major": 6,
+  "version_minor": 2,
+  "version_patch": 0,
+  "config_sha256": "0aa9469bf519a02d7e0314e66ac70cbb3ebb570b4da6304b803d19187f608fd9",
+  "engine_sha256": "9ab675b8f45219d99e13e57f03ba5628302eef60343976def1a223de93a86206",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-10T02:43:08.977Z",
+  "released_by": "release:champion",
+  "changelog": "Retire the ratchet re-risk override and arm cash momentum for an empty defensive sleeve. The override let a gated-out bond sleeve re-risk its vacated weight into equity, so Preserve held ZERO ballast in 12 of the 14 months where every bond failed the gate, contradicting its own floor: 0.4. The allocator also read defensive momentum as a fabricated 0 in those months ('there are no bonds', not 'bonds returned zero'); it now uses the TBILL_13W trailing return over the same 18-month window, compared against undiscounted risk momentum. CAGR 16.68% -> 15.73%, maxDD -16.49% -> -13.78%, worst-12mo -3.69% -> -3.44%, Copley 4.516 -> 4.572. The floor was swept 0.20-0.60 to test whether the CAGR was recoverable; it is not without selling the risk profile, and 0.40 already sits on the Martin plateau (4.88-4.96 across 0.40-0.48). D6: RDD3y improves 35%, longest-underwater 1035d -> 1150d accepted, see the acceptance reason."
+}
