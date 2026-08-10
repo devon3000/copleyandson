@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v6.3",
+  "version_major": 6,
+  "version_minor": 3,
+  "version_patch": 0,
+  "config_sha256": "0aa9469bf519a02d7e0314e66ac70cbb3ebb570b4da6304b803d19187f608fd9",
+  "engine_sha256": "e8dc438ba00444d1a4466395d123ed51b38826df69b2b0b3c97a8103e294b724",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-10T06:23:17.439Z",
+  "released_by": "release:champion",
+  "changelog": "Engine-only re-cut; the config is unchanged from v6.2. dynamic_k and the per-sleeve minimum-position floor were rescaling survivors blindly after dropping a holding, breaching the per-fund cap that crowd_deconcentrate had tightened precisely to spread a crowded book — SOXX reached 43.17% against a 37.10% cap on 2018-10-01, and 31.30% against 27.80% on 2017-12-01. Both stages now share a water-fill that pins holdings at the cap and leaves residue the caps cannot absorb unallocated rather than breaching them. CAGR 15.7299% -> 15.7233%, Martin 4.9046 -> 4.9039; maxDD and worst-12mo bit-identical; cap breaches 2 -> 1 (the remainder is a 0.05pp float-scale overshoot, not structural). All four D6 instruments unchanged. Re-cut alongside Growth so the published version matches the engine that produces it."
+}
