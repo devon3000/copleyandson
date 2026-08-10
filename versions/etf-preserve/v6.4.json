@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v6.4",
+  "version_major": 6,
+  "version_minor": 4,
+  "version_patch": 0,
+  "config_sha256": "b05f5f3d1869f9d8507992341f5d22d8679f44777bd08d7561d5ae2b1a2ddf6f",
+  "engine_sha256": "377e52c56e02cab160da5e73698a40cdcf8613ec4165c33107459f862ab132fe",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-10T07:23:57.508Z",
+  "released_by": "release:champion",
+  "changelog": "Engine-only re-cut; the config gains dust_prune_pct: 0.1 as a guard (Preserve had no sub-0.1% dust to begin with) and is otherwise unchanged. (1) dynamic_k and the per-sleeve minimum-position floor were rescaling survivors blindly after dropping a holding, breaching the per-fund cap that crowd_deconcentrate had tightened precisely to spread a crowded book — SOXX reached 43.17% against a 37.10% cap on 2018-10-01. Both stages now share a water-fill that pins holdings at the cap and leaves residue the caps cannot absorb unallocated. (2) An empty target map means 100% CASH, not a failed rebalance: the executor was holding the previous month's book while the engine asked for cash. CAGR 15.7299% -> 15.6919%, Martin 4.9046 -> 4.8759; maxDD and worst-12mo bit-identical. The 2022 bear now reads -0.60% rather than +2.45%: the engine wanted 100% cash on 2022-10-03 when every fund in the universe failed the gate, and the old executor rode the November bounce instead. That credential was flattered by the model being overruled. Numbered v6.4 alongside Growth; v6.3 was cut, rolled back, and is permanently bound in the public version registry to a different fingerprint."
+}
