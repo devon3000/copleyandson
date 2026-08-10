@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v6.4",
+  "version_major": 6,
+  "version_minor": 4,
+  "version_patch": 0,
+  "config_sha256": "0e175789bed469ceb4e4e0ae048d89bb266fe628db234b82985736e99f8ec1b3",
+  "engine_sha256": "377e52c56e02cab160da5e73698a40cdcf8613ec4165c33107459f862ab132fe",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-10T07:20:49.708Z",
+  "released_by": "release:champion",
+  "changelog": "Dust, caps, and an executor that was overruling the engine. (1) Bond sleeve arms k_per_allocation_pct: 10, which Preserve already had — Growth carried a sub-1% position in 29 of 248 reallocations against Preserve's 0. (2) min_position_breadth_pct: 6 replaces the crowd-month floor off-switch with a REDUCED floor. (3) min_sleeve_pct: 2 sweeps a de-minimis sleeve budget up, or down when nothing above can take it. (4) dust_prune_pct: 0.1 drops unexecutable slivers to CASH, never renormalizing across sleeves. (5) dynamic_k and the per-sleeve floor now respect the per-fund cap when redistributing after a drop; they were breaching the crowd-tightened cap in 4 of 248 months (ITA 53.02% against a 49.84% cap). (6) An empty target map means 100% CASH, not a failed rebalance — the executor was holding the previous book while the engine asked for cash. CAGR 20.93% -> 21.09%, Martin 4.087 -> 4.109, worst-12mo -5.14% -> -5.31%, maxDD unchanged; cap violations 4 -> 0; sub-2% dust months 34 -> 0. The 2022 bear now reads -4.31% rather than +0.78%: the engine wanted 100% cash on 2022-10-03 when every fund failed the gate, and the old executor rode the November bounce instead. Numbered v6.4 because v6.3 was cut, rolled back, and is permanently bound in the public version registry to a different fingerprint."
+}
