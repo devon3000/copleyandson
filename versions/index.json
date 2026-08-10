@@ -24,6 +24,14 @@
     "released_at": "2026-08-02T23:08:06.148Z"
   },
   {
+    "strategy_slug": "etf-growth",
+    "strategy": "ETF Growth",
+    "version": "v6.2",
+    "config_sha256": "f4a5fd749d72906e31665e94cc2e27e65bf45f85e71db73c5302ac9d8ba26d50",
+    "engine_sha256": "9ab675b8f45219d99e13e57f03ba5628302eef60343976def1a223de93a86206",
+    "released_at": "2026-08-10T02:36:59.791Z"
+  },
+  {
     "strategy_slug": "etf-preserve",
     "strategy": "ETF Preserve",
     "version": "v6.0",

@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v6.2",
+  "version_major": 6,
+  "version_minor": 2,
+  "version_patch": 0,
+  "config_sha256": "f4a5fd749d72906e31665e94cc2e27e65bf45f85e71db73c5302ac9d8ba26d50",
+  "engine_sha256": "9ab675b8f45219d99e13e57f03ba5628302eef60343976def1a223de93a86206",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-10T02:36:59.791Z",
+  "released_by": "release:champion",
+  "changelog": "Retire the ratchet re-risk override and arm cash momentum for an empty defensive sleeve. The allocator was computing posture from a fabricated defensive momentum of 0, which meant 'there are no bonds' rather than 'bonds returned zero'; it now uses the TBILL_13W trailing return over the same 18-month window, compared against UNDISCOUNTED risk momentum (the vol suppressor shrinks equity momentum multiplicatively, and zero was safe only as the fixed point of that shrink). Also relocates min_position_pct from book level to the equity sleeve so a position floor can no longer delete the entire bond book. CAGR 21.12% -> 20.93%; maxDD and worst-12mo bit-identical. D6: 3 of 4 instruments improve; cohorts-still-behind 1.10% -> 1.47% accepted, see the acceptance reason."
+}
