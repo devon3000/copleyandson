@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v6.5",
+  "version_major": 6,
+  "version_minor": 5,
+  "version_patch": 0,
+  "config_sha256": "d221676cde64553df3461a7ceb6799a3504062dc087f9e4294e60427ccdc781c",
+  "engine_sha256": "911da9dd6a474a1ce2e1467fdb962ba09389ffc4bce8cb71dd19147b19001412",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-16T19:18:59.676Z",
+  "released_by": "release:champion",
+  "changelog": "Engine all-cash liquidation fix; config unchanged from v6.4 (the cash-momentum lever stands on Preserve on its honest trade: -0.79pp CAGR for +2.9pp maxDD, re-measured on the fixed engine). One all-cash month now trades instead of silently holding the prior book."
+}
