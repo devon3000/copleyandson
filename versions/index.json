@@ -75,9 +75,9 @@
     "strategy_slug": "etf-preserve",
     "strategy": "ETF Preserve",
     "version": "v6.1",
-    "config_sha256": "d0f4fbd70315e4c8b8520692f5661fe14d32754869f413f877c914faae12bec3",
-    "engine_sha256": "8adb1fde57f1c8e94c7bf1bf8f267a460ca717c953e9934f2b1ef9fbd76770c4",
-    "released_at": "2026-08-03T00:35:03.407Z"
+    "config_sha256": "afc6275d96685a718208d658a60c508d7db6e535ce60f376b552738836fbaf78",
+    "engine_sha256": "3cd2acdeb066a90d71021fb9d0379d60c878e43ea447def889ec433ceea0e193",
+    "released_at": "2026-08-20T05:52:01.861Z"
   },
   {
     "strategy_slug": "etf-preserve",
