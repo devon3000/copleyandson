@@ -19,9 +19,9 @@
     "strategy_slug": "etf-growth",
     "strategy": "ETF Growth",
     "version": "v6.1",
-    "config_sha256": "6972588b6ae13526b8e19ddf9e843d47545a6d354a6bdabcca729901c8fbd611",
-    "engine_sha256": "c0a3a23646f8ffd2e9cc97fcebdfe686c3f1291af3320346027281f6ae121510",
-    "released_at": "2026-08-17T05:22:51.772Z"
+    "config_sha256": "b85f0039841daed59a6aa75099061d0db67611e1adfd9e60bf3ce85edd9f017f",
+    "engine_sha256": "aafca90176a9dcb2e33452dab13e897354205960466fe99f1c7e55a354b970af",
+    "released_at": "2026-08-20T19:19:44.916Z"
   },
   {
     "strategy_slug": "etf-growth",
