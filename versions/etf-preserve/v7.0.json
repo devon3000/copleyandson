@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v7.0",
+  "version_major": 7,
+  "version_minor": 0,
+  "version_patch": 0,
+  "config_sha256": "5791a6affb18f8eb0089e3335fcc11fd03fa5613973f555abe27f55f55cf7f66",
+  "engine_sha256": "9caf366c196d480a7bb925a47c92e90474b3e87fd3c21c837101abc3a5daad50",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-30T23:12:47.443Z",
+  "released_by": "release:champion",
+  "changelog": "v7.0: the joint-construction book under the 0.4 defensive floor. Full cycle 15.89% CAGR / Martin 5.20 / maxDD -13.2 / worst-12mo -2.9 / worst-3m -10.1 vs incumbent 15.83 / 4.73 / -13.8 / -3.5 / -11.4; beats 60/40 by 7.6pp CAGR full-cycle. Defensive sleeve equal-weight top 3 with the regime switch. D6 note: The v7 construction trades a longer 2011-2015 relative-underwater stretch for the best recent-era tracking and risk profile we have measured; the lost decade is structural to the universe, and no rule we tested shortens it without reopening 2000. Acknowledged at the acceptance gate. Record: the-walk volume 7.\n\n[major: The same joint-construction methodology as Growth v7.0 applied under Preserve's posture: residue to bonds with the floor enforced on exit, deepen threshold, thin-set cap; the residue rule is the strategy distinction (equities-first = Growth, bonds-first = Preserve). A new construction methodology, not a parameter change.]\n\n[D6 regression accepted on longest underwater (d), cohorts still behind: The v7 construction trades a longer 2011-2015 relative-underwater stretch for the best recent-era tracking and risk profile we have measured; the lost decade is structural to the universe, and no rule we tested shortens it without reopening 2000.]"
+}
