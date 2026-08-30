@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v7.0",
+  "version_major": 7,
+  "version_minor": 0,
+  "version_patch": 0,
+  "config_sha256": "a1bb22bf1aedc6d404713d360d6f292dc4afd59ddb993bd22bb692dcc07c4b51",
+  "engine_sha256": "9caf366c196d480a7bb925a47c92e90474b3e87fd3c21c837101abc3a5daad50",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-08-30T23:08:46.545Z",
+  "released_by": "release:champion",
+  "changelog": "v7.0: the joint-construction book. Full cycle 21.78% CAGR / Martin 4.55 / maxDD -20.4 / worst-12mo -5.4 vs incumbent 21.42 / 4.32 / -20.5 / -6.5; rolling-12m beat of SPY 88% (median +7.9pp), longest losing run 72 trading days. Defensive sleeve equal-weight top 3 with the 36m stock-bond correlation regime switch. D6 note: The v7 construction trades a longer 2011-2015 relative-underwater stretch for the best recent-era tracking and risk profile we have measured; the lost decade is structural to the universe, and no rule we tested shortens it without reopening 2000. Acknowledged at the acceptance gate. Record: the-walk volume 7.\n\n[major: Selection and sizing become ONE JOINT SOLVE (lib/engine/jointConstruction.ts) replacing the post-selection stage chain: top-8 candidate set, semi-continuous 12% floor inside the solve, conviction-ordered depth fill, equities-before-bonds residue, thin-set cap, and a book-vol budget (1.8x market, gated above trend) as a simultaneous constraint. A new construction methodology, not a parameter change.]\n\n[D6 regression accepted on RDD3y, worst-3y excess, longest underwater (d), cohorts still behind: The v7 construction trades a longer 2011-2015 relative-underwater stretch for the best recent-era tracking and risk profile we have measured; the lost decade is structural to the universe, and no rule we tested shortens it without reopening 2000.]"
+}
