@@ -1,0 +1,32 @@
+{
+  "stream": "etf-growth/v7.0",
+  "date": "2026-08-31",
+  "generated_at_utc": "2026-09-01T00:54:55.025Z",
+  "reveal_date": "2026-11-29",
+  "seq": 1,
+  "prev_root": "0000000000000000000000000000000000000000000000000000000000000000",
+  "root": "dc701d62732b4d802086edaa4ad85d993063348c0bb53bd57609484f0613c79e",
+  "signature": "Yb7m4ZvgJM9g6b9t5xpRCIF1jgefZPWFYBdPO7mghRB8GGiZTTA97y7mnVINeiV8nTBlHqj1jwnBOrpf1pu4Cg==",
+  "key_id": "a926c6c2a87ea56a",
+  "succeeds": {
+    "stream": "etf-growth/v6.0",
+    "root": "11de7c24d79059ec01782bcc91a6a383b3b77cd56ff529d846799515606c78a1"
+  },
+  "note": "Ed25519-signed + hash-chained per stream. Verify: pnpm verify:signals. Actual trades revealed on reveal_date as <date>.trades.json; then SHA-256(canonical{date,strategy,target}) === signal_sha256. This proves commitment + ordering publicly; the engine_sha256 is reproducible only by an auditor (private repo) or once the engine is open-sourced.",
+  "strategy": {
+    "strategy": "ETF Growth (Champion)",
+    "version": "v7.0",
+    "config_sha256": "a1bb22bf1aedc6d404713d360d6f292dc4afd59ddb993bd22bb692dcc07c4b51",
+    "as_of_date": "2026-08-31",
+    "effective_date": "2026-09-01",
+    "engine_sha256": "9caf366c196d480a7bb925a47c92e90474b3e87fd3c21c837101abc3a5daad50",
+    "engine_sha256_run": "9caf366c196d480a7bb925a47c92e90474b3e87fd3c21c837101abc3a5daad50",
+    "engine_ok": true,
+    "rebalance_triggered": true,
+    "trigger_reason": "scheduled",
+    "gate_active": false,
+    "equity_pct": 100,
+    "n_positions": 5,
+    "signal_sha256": "be28d6d6fcb4f70016ae29486c604166d8d82a2ca198b29236a3b705de385600"
+  }
+}
