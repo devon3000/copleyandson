@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v8.0",
+  "version_major": 8,
+  "version_minor": 0,
+  "version_patch": 0,
+  "config_sha256": "4f3fbda7dd74dc0cafee88e885e10f1e6e86c0e0bdc7760e4a7bc8180d03c2b4",
+  "engine_sha256": "cb0be38fdeaf89507039ba12852b18af1c9ec4779f6681f8ec4cc6ea0577b515",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-09-20T23:32:05.148Z",
+  "released_by": "release:champion",
+  "changelog": "v8.0 — the same linear harvest solve as Growth, at Preserve tighter point on the frontier: maximise the sum of momentum_strength x weight subject to the volatility budget, the cluster rows and the single-name cap, replacing the v7 chi-square distance-to-target solve. Book size is an OUTPUT, not a setting. Single-name ceiling 50% of book; the eligibility floor (select_strength) is 0.05, replacing 0.2. Gated against v7.0 on 2026-09-20 vs 60/40: panel centre 11.29% -> 12.65% (+1.36pp) with dispersion reduced in all three families (pooled -0.42pp, offsets -0.62pp, cadence -0.50pp); DOMINATES the incumbent on (centre, dispersion) in both families; stress 3/3 at the centre; every D6 line passes off-path, including longest-underwater at -907d; the cadence family passes every line; floors hold at every arm (worst maxDD -20.2% against -22%, worst 12-month -9.7% against -15%). PASSED with no hard-gate failure and no D6 regression, and no acknowledgement required.\n\n[major: the solve's objective is a new core mechanism: a linear harvest LP replaces the chi-square solve, and book size becomes an output rather than a configured k]"
+}
