@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Growth",
+  "strategy_slug": "etf-growth",
+  "version": "v8.0",
+  "version_major": 8,
+  "version_minor": 0,
+  "version_patch": 0,
+  "config_sha256": "b23b6d3cfd135d09f266bf75851ce796a1087fd0e8c35423438d3a291095a095",
+  "engine_sha256": "cb0be38fdeaf89507039ba12852b18af1c9ec4779f6681f8ec4cc6ea0577b515",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-09-20T23:23:15.081Z",
+  "released_by": "release:champion",
+  "changelog": "v8.0 — the book is now solved as a LINEAR HARVEST PROGRAM: maximise the sum of momentum_strength x weight subject to the volatility budget, the cluster rows and the single-name cap, replacing the v7 chi-square distance-to-target solve. Book size is an OUTPUT rather than a setting: no k, no share bar, no widening rule. The single-name ceiling is 50% of book. Gated against v7.0 on 2026-09-20: panel centre 15.84% -> 18.96% (+3.13pp) with dispersion reduced in all three families (pooled -1.98pp, offsets -2.88pp, cadence -1.16pp); DOMINATES the incumbent on (centre, dispersion) in both families; stress passes on all four execution-date arms where v7.0 fails three; every D6 line passes off-path; absolute floors hold at every arm; 0% of every risk band spent off-path. 237 of 249 rebalances changed. TAIL ACKNOWLEDGED: N=6 trades 4.11pp of worst-12mo for 6.1pp of max drawdown (-31.0% to -24.9%) and converts a stress-gate FAIL to a pass on that arm, while remaining 10.7pp inside the -25% absolute floor; the other two off-path arms improve worst-12mo by +5.2pp and +5.02pp, so the median passes and this is a single-arm trade, not a deterioration.\n\n[major: the solve's objective is a new core mechanism: a linear harvest LP replaces the chi-square solve, and book size becomes an output rather than a configured k]\n\n[tail guard acknowledged (worst-12mo at N=6: paired Δ -4.11pp is below −3× the 0.50pp band): N=6 trades 4.11pp of worst-12mo for 6.1pp of max drawdown and converts a stress-gate FAIL to a pass on that arm, while staying 10.7pp inside the -25% floor; the other two off-path arms improve by +5.2pp and +5.02pp]"
+}
