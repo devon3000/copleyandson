@@ -37,6 +37,8 @@ pubkey.pem                                     the Ed25519 public key that signs
 verify.mjs                                     the independent verifier (this file's instructions).
 ```
 
+Withdrawn commitments, and why, are listed in [`RETRACTIONS.md`](RETRACTIONS.md).
+
 Older `signals/<date>.json` files (no subfolder) are legacy pre-activation commitments and are unsigned.
 
 ## Verify it yourself

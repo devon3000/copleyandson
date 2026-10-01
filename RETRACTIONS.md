@@ -10,8 +10,7 @@ every withdrawn file stays in this repository's git history and its Bitcoin time
 | `etf-growth/v8.0` | 2026-09-30 | 1 | `b6f7ac307566e224dfd82cf52878ff6bc2b867c9f0b0f155c433a8d70481c4a5` |
 | `etf-preserve/v8.0` | 2026-09-30 | 1 | `3339e330ad8d69442bc14e4dc369fc9f8bebabf2eafe4f164287dc9429335645` |
 
-Both files were added in this repository's history and removed by the commit that added this entry (last
-present at `49cf8ba`).
+Both proofs and their `.ots` timestamps were removed on 2026-10-01; the last commit containing them is `49cf8ba`.
 
 **What happened.** The nightly job that should run after the market close was delayed by GitHub until 01:52 ET
 on 2026-09-30, before that day's session had traded. Our pipeline used the wall-clock date as the signal date,
