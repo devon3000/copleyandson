@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v8.1",
+  "version_major": 8,
+  "version_minor": 1,
+  "version_patch": 0,
+  "config_sha256": "05d1604db97385493131a0667fcca6f010c62981c314fbf0c238f4b9b7798d91",
+  "engine_sha256": "f50f488443062f515c2ccb8fe021a31a822b64860381c94ae17d8e480e5c8bb7",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-10-01T00:44:08.320Z",
+  "released_by": "release:champion",
+  "changelog": "Preserve adopts ETF Growth's EquityCommodity sleeve verbatim (v8 construction: soft cap 0.5, strength-tiered caps, washout fill, select_strength 0.15, conviction tau 1, regime softness 0.7, 90 days below threshold, cluster cap 0.7, no extension taper). The defensive sleeve and all book-level settings are unchanged. Cut as v8.1, not v8.0: the withdrawn 2026-09-30 proof (incident 2026-09-30) publicly bound etf-preserve v8.0 to the previous config.\n\n[acceptance gate skipped: Operator decision 2026-09-30 (Devon): Preserve runs Growth's equity sleeve so both models hold one explainable equity book. Measured on the research branch (offense-book-divergence-2026-09): centre CAGR roughly flat on the execution-day panel; worst-12mo regression accepted for explainability.]"
+}
