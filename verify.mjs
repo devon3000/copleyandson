@@ -55,7 +55,7 @@ function verifySig(root, sigB64, keyObj) {
 }
 
 // The signed entry, reconstructed exactly as it was signed, from the public commitment file.
-const entryFromProof = (p) => ({ stream: p.stream, date: p.date, seq: p.seq, prev_root: p.prev_root, reveal_date: p.reveal_date, key_id: p.key_id, strategies: [p.strategy] });
+const entryFromProof = (p) => ({ stream: p.stream, date: p.date, seq: p.seq, prev_root: p.prev_root, reveal_date: p.reveal_date, key_id: p.key_id, strategies: [p.strategy], ...(p.succeeds ? { succeeds: p.succeeds } : {}) });
 
 function loadKeys() {
   const keys = new Map();

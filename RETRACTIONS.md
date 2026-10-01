@@ -1,6 +1,6 @@
 # Retractions
 
-Commitments we have withdrawn, and why. A withdrawal is an ordinary commit: history is never rewritten, so
+Commitments we have withdrawn, files we have corrected, and why. A withdrawal is an ordinary commit: history is never rewritten, so
 every withdrawn file stays in this repository's git history and its Bitcoin timestamp stays verifiable.
 
 ## 2026-09-30: the September print was signed a day early (withdrawn 2026-10-01)
@@ -30,3 +30,16 @@ above remains bound to the old v8.0 configuration. Each new chain's genesis name
 
 **The fix.** The signal date is now the most recent NYSE session whose 16:00 ET close has passed, and the
 pipeline refuses to sign unless the newest price it holds is from that session.
+
+## 2026-08-31 v7.0 proof files republished as signed (corrected 2026-10-01)
+
+Not a retraction: nothing signed was changed. `signals/etf-growth/v7.0/2026-08-31.proof.json` and
+`signals/etf-preserve/v7.0/2026-08-31.proof.json` were first published correctly at 00:54 UTC on 2026-09-01
+(`42e9961`). A second, delayed run of the same nightly job at 02:10 UTC (`12c26ef`) rewrote both files with its own
+run metadata (`engine_sha256_run`, `engine_ok`) and without the `succeeds` field, while keeping the original root and
+signature. The files then no longer matched what had been signed, so `verify.mjs` reported them as tampered. Both are
+restored to the `42e9961` bytes, which are what the roots commit to. The roots, signatures and Bitcoin timestamps are
+unchanged.
+
+`verify.mjs` is also corrected: it rebuilt each entry without `succeeds`, the lineage pointer that the first entry of
+a new version's chain carries, so it failed every such entry even when the file was intact.
