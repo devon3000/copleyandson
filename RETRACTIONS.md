@@ -43,3 +43,17 @@ unchanged.
 
 `verify.mjs` is also corrected: it rebuilt each entry without `succeeds`, the lineage pointer that the first entry of
 a new version's chain carries, so it failed every such entry even when the file was intact.
+
+## 2026-09-30 note: ETF Preserve v8.1 was cut on the evening of its first print
+
+Not a retraction. ETF Preserve v8.1 was released at 20:44 ET on 2026-09-30, after that day's 16:00 ET close, and
+its first commitment (`etf-preserve/v8.1`, root `fb7b9c48c542…`) was signed about 1.5 hours later from the same
+close. The registry entry (`versions/etf-preserve/v8.1.json`) was committed before the proof, so the version
+preceded the signal, but the decision was not made blind to the day's data: we had already seen what the
+previous Preserve configuration would hold on that close (40% cash alongside a semiconductor position) and found
+it hard to explain. v8.1 gives Preserve the same equity sleeve as ETF Growth, a change researched and backtested
+beforehand and chosen for explainability; its full-cycle backtest is lower on return and on worst 12 months than
+v8.0's, which we accepted.
+
+`verify.mjs` is also corrected: it compared the release's UTC date with the signal's trading date, so a release
+on the evening of a print night (after 20:00 ET) read as a day late. Both are now compared in New York time.

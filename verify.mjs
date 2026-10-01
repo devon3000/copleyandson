@@ -55,6 +55,9 @@ function verifySig(root, sigB64, keyObj) {
 }
 
 // The signed entry, reconstructed exactly as it was signed, from the public commitment file.
+// A signal's date is a US trading session (New York time), so a release timestamp is compared on the same calendar.
+const etDate = (iso) => String(iso).length === 10 ? String(iso)
+  : new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(iso));
 const entryFromProof = (p) => ({ stream: p.stream, date: p.date, seq: p.seq, prev_root: p.prev_root, reveal_date: p.reveal_date, key_id: p.key_id, strategies: [p.strategy], ...(p.succeeds ? { succeeds: p.succeeds } : {}) });
 
 function loadKeys() {
@@ -90,7 +93,7 @@ function checkVersionAndReveal(path, p, problems) {
     const reg = JSON.parse(readFileSync(regPath, "utf8"));
     if (reg.config_sha256 !== st.config_sha256) problems.push("config_sha256 does not match the version registry");
     if (st.engine_sha256 && reg.engine_sha256 !== st.engine_sha256) problems.push("engine_sha256 does not match the version registry");
-    if (reg.released_at && String(reg.released_at).slice(0, 10) > p.date) problems.push("version was registered AFTER the signal (ordering violation)");
+    if (reg.released_at && etDate(reg.released_at) > p.date) problems.push("version was registered AFTER the signal (ordering violation)");
   }
   if (st.engine_ok === false) problems.push("engine drift at signal time (engine_ok=false)");
 
