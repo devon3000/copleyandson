@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v8.1.1",
+  "version_major": 8,
+  "version_minor": 1,
+  "version_patch": 1,
+  "config_sha256": "05d1604db97385493131a0667fcca6f010c62981c314fbf0c238f4b9b7798d91",
+  "engine_sha256": "4ade6d016c3cd710c5112ac609b252d0615e7fd99aadfc419288c998ef6df93f",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-10-03T16:13:26.806Z",
+  "released_by": "release:champion",
+  "changelog": "Byte-exact PATCH - engine fingerprint realignment. No config change, no signal change. The closure SOURCE moved f50f4884 -> 4ade6d01 across never_hold_symbols (default-off, unset here), the inert-ladder research, and new lib/leveredPairs.ts rows for underlyings no champion levers. Proven byte-identical by diff:engine on both commits. Realigns engine_sha256 so preflight-succession stops reporting a silent continuation. Stream key unchanged.\n\n[patch (byte-exact, verified): engine closure source moved f50f4884 -> 4ade6d01; output byte-identical (diff:engine, 218/218 shared scenarios)]"
+}
