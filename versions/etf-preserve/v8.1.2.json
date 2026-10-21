@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v8.1.2",
+  "version_major": 8,
+  "version_minor": 1,
+  "version_patch": 2,
+  "config_sha256": "05d1604db97385493131a0667fcca6f010c62981c314fbf0c238f4b9b7798d91",
+  "engine_sha256": "6205ef15afe4fd0612b613ceb71bad817a5b251a71d0a15d73fc8e71b0190206",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-10-21T19:43:41.277Z",
+  "released_by": "release:champion",
+  "changelog": "No model change. Records the engine fingerprint the next print will sign under, resolving the succession pre-flight's silent-continuation failure. Verified byte-exact against the engine that produced seq 1 (0 of 243 reallocations differ, same config on both engines). Stream key v8.1 unchanged, so the signed chain does not fork.\n\n[patch (byte-exact, verified): engine-closure change since the last print is byte-exact on this config: verified 0 of 243 reallocations differ between engine f50f48844306 (what printed at seq 1) and 6205ef15afe4, same config on both]"
+}
