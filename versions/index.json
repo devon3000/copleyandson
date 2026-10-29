@@ -84,8 +84,8 @@
     "strategy": "ETF Growth",
     "version": "v9.0",
     "config_sha256": "4efcaa8b562a0542b5e61fd3c7c0c329ecdc7c677528c6add75ea5d9002d53aa",
-    "engine_sha256": "191d50b99f04c04894182c13b66ad514b3522dba392fc4ce2962d97d1ceab70e",
-    "released_at": "2026-10-29T20:13:53.311Z"
+    "engine_sha256": "f4e99582e7a6ad16a18dbd6f77d2a00bd77bb58130f565838d83a490956d09e8",
+    "released_at": "2026-10-29T21:06:03.727Z"
   },
   {
     "strategy_slug": "etf-preserve",
