@@ -1,7 +1,7 @@
 {
   "stream": "etf-preserve/v9.0",
   "date": "2026-10-30",
-  "generated_at_utc": "2026-10-31T00:43:07.503Z",
+  "generated_at_utc": "2026-10-31T00:43:08.027937+00:00",
   "reveal_date": "2027-01-28",
   "seq": 1,
   "prev_root": "0000000000000000000000000000000000000000000000000000000000000000",
@@ -9,24 +9,24 @@
   "signature": "nQ82ALfQR42QM7lcHGzaKDj6+ELS7qWD9y9BSOlbGOfOSHF4KLTbxTLg9i4cebxpicNuf3pSei1QbGj2OVxTCQ==",
   "key_id": "a926c6c2a87ea56a",
   "succeeds": {
-    "stream": "etf-preserve/v8.1",
-    "root": "fb7b9c48c54263526beb6c009776585c1382e719336a0745feeb4558b5234e39"
+    "root": "fb7b9c48c54263526beb6c009776585c1382e719336a0745feeb4558b5234e39",
+    "stream": "etf-preserve/v8.1"
   },
   "note": "Ed25519-signed + hash-chained per stream. Verify: pnpm verify:signals. Actual trades revealed on reveal_date as <date>.trades.json; then SHA-256(canonical{date,strategy,target}) === signal_sha256. This proves commitment + ordering publicly; the engine_sha256 is reproducible only by an auditor (private repo) or once the engine is open-sourced.",
   "strategy": {
-    "strategy": "ETF Preserve (Champion)",
     "version": "v9.0",
-    "config_sha256": "14ef02e09dbabe80dbf79252346eb5b5e23871bca31cf17c5399dd3b015834a2",
-    "as_of_date": "2026-10-30",
-    "effective_date": "2026-11-02",
-    "engine_sha256": "cbf19a5f06f084c86e61d5c8cd9f161bd2b7d76fa07a632e6fe1ab1fc7eccc35",
-    "engine_sha256_run": "cbf19a5f06f084c86e61d5c8cd9f161bd2b7d76fa07a632e6fe1ab1fc7eccc35",
+    "strategy": "ETF Preserve (Champion)",
     "engine_ok": true,
-    "rebalance_triggered": true,
-    "trigger_reason": "scheduled",
-    "gate_active": false,
+    "as_of_date": "2026-10-30",
     "equity_pct": 100,
+    "gate_active": false,
     "n_positions": 6,
-    "signal_sha256": "2210774ad2ea0c18314fa5a9c4678dfcb51286676c7d1dcd533a76a86a3954c2"
+    "config_sha256": "14ef02e09dbabe80dbf79252346eb5b5e23871bca31cf17c5399dd3b015834a2",
+    "engine_sha256": "cbf19a5f06f084c86e61d5c8cd9f161bd2b7d76fa07a632e6fe1ab1fc7eccc35",
+    "signal_sha256": "2210774ad2ea0c18314fa5a9c4678dfcb51286676c7d1dcd533a76a86a3954c2",
+    "effective_date": "2026-11-02",
+    "trigger_reason": "scheduled",
+    "engine_sha256_run": "cbf19a5f06f084c86e61d5c8cd9f161bd2b7d76fa07a632e6fe1ab1fc7eccc35",
+    "rebalance_triggered": true
   }
 }
