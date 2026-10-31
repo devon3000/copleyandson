@@ -1,0 +1,32 @@
+{
+  "stream": "etf-preserve/v9.1",
+  "date": "2026-10-30",
+  "generated_at_utc": "2026-10-31T20:06:29.327Z",
+  "reveal_date": "2027-01-28",
+  "seq": 1,
+  "prev_root": "0000000000000000000000000000000000000000000000000000000000000000",
+  "root": "1c00e2a367029a481644cbc0ca686b67353636f8c21e9e4a90a546543205fae1",
+  "signature": "IWosANLcLLvl8nz4ansrkK52wDqAeTIFJ0oY/TaLz8T8m6vXSnW5Mk15QA4arA2q0Axrs6KOXbs1lkjqUaIUBg==",
+  "key_id": "a926c6c2a87ea56a",
+  "succeeds": {
+    "stream": "etf-preserve/v9.0",
+    "root": "fe2bf47e115930f5338c507f6b446ac56527f95330d40e2aa062d3d93b003ebb"
+  },
+  "note": "Ed25519-signed + hash-chained per stream. Verify: pnpm verify:signals. Actual trades revealed on reveal_date as <date>.trades.json; then SHA-256(canonical{date,strategy,target}) === signal_sha256. This proves commitment + ordering publicly; the engine_sha256 is reproducible only by an auditor (private repo) or once the engine is open-sourced.",
+  "strategy": {
+    "strategy": "ETF Preserve (Champion)",
+    "version": "v9.1",
+    "config_sha256": "a7c663e2125c3a34cd9f55606202efca42d91c709c9a27daee2460fd3497c3a3",
+    "as_of_date": "2026-10-30",
+    "effective_date": "2026-11-02",
+    "engine_sha256": "fa87a66c7736a61a9e8a9384baa75811479d9f3eaa858e909d3bc711f5bbb07c",
+    "engine_sha256_run": "fa87a66c7736a61a9e8a9384baa75811479d9f3eaa858e909d3bc711f5bbb07c",
+    "engine_ok": true,
+    "rebalance_triggered": true,
+    "trigger_reason": "scheduled",
+    "gate_active": false,
+    "equity_pct": 100,
+    "n_positions": 3,
+    "signal_sha256": "5aad0c1cc419f5b1fc47a47ebcc072104d356ad68f85adaf1faedd570c5b12b2"
+  }
+}
