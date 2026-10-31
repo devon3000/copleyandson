@@ -1,0 +1,46 @@
+{
+  "stream": "etf-growth/v6.0",
+  "date": "2026-07-31",
+  "reveal_of": "2026-07-31.proof.json",
+  "strategy": "ETF Growth (Champion)",
+  "version": "v6.0",
+  "as_of_date": "2026-07-31",
+  "effective_date": "2026-08-03",
+  "config_sha256": "8c9ee1cfbed06fc5bcc804ce55f227f281958cc8bac8591b9d64136230297ce5",
+  "engine_sha256": "1eb0a27cfb16fd2796a91365332a4f31e9947ba2462de1153bd6b8c9e3a1eba6",
+  "target": [
+    {
+      "symbol": "IBB",
+      "weight": 0.124472
+    },
+    {
+      "symbol": "IWM",
+      "weight": 0.075768
+    },
+    {
+      "symbol": "OIH",
+      "weight": 0.164492
+    },
+    {
+      "symbol": "SOXX",
+      "weight": 0.194461
+    },
+    {
+      "symbol": "VLUE",
+      "weight": 0.121175
+    },
+    {
+      "symbol": "XBI",
+      "weight": 0.165777
+    },
+    {
+      "symbol": "XLK",
+      "weight": 0.061721
+    },
+    {
+      "symbol": "XPH",
+      "weight": 0.092134
+    }
+  ],
+  "signal_sha256": "60e745aa9144f09ca08f59e6fc88e7dc9405f9908792206faf953bfbe6c8cb75"
+}

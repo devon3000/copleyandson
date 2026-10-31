@@ -1,0 +1,52 @@
+{
+  "stream": "etf-preserve/v5.7",
+  "date": "2026-07-31",
+  "reveal_of": "2026-07-31.proof.json",
+  "strategy": "ETF Preserve (Champion)",
+  "version": "v5.7",
+  "config_sha256": "2e0271f603a4708d3bde692f348bdfded017f685a6eb61056ebb78f764443413",
+  "engine_sha256": "09ae1be65712ad59f264021f2c98334c1ceb8debc24dccc9f2636357e399c6b8",
+  "target": [
+    {
+      "symbol": "BSV",
+      "weight": 0.195193
+    },
+    {
+      "symbol": "IBB",
+      "weight": 0.067404
+    },
+    {
+      "symbol": "MTUM",
+      "weight": 0.050307
+    },
+    {
+      "symbol": "OIH",
+      "weight": 0.105753
+    },
+    {
+      "symbol": "SOXX",
+      "weight": 0.114732
+    },
+    {
+      "symbol": "VCSH",
+      "weight": 0.204807
+    },
+    {
+      "symbol": "VLUE",
+      "weight": 0.071019
+    },
+    {
+      "symbol": "XBI",
+      "weight": 0.096205
+    },
+    {
+      "symbol": "XLK",
+      "weight": 0.040164
+    },
+    {
+      "symbol": "XPH",
+      "weight": 0.054416
+    }
+  ],
+  "signal_sha256": "339e0dbe6d60c585b702f4424242590b93e8ee6fcb5ba87d9a5e368595608aca"
+}
