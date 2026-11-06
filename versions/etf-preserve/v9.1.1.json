@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Preserve",
+  "strategy_slug": "etf-preserve",
+  "version": "v9.1.1",
+  "version_major": 9,
+  "version_minor": 1,
+  "version_patch": 1,
+  "config_sha256": "a7c663e2125c3a34cd9f55606202efca42d91c709c9a27daee2460fd3497c3a3",
+  "engine_sha256": "90b23a98defc141b510d098ec37b2052f63cc3f2c8da2517f89e03b5fa46226f",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-11-06T18:57:01.187Z",
+  "released_by": "release:champion",
+  "changelog": "Diagnostic only: the snapshot now distinguishes the absolute volatility budget (book vol <= 1.8x the market's) from the active-risk budget (distance from a world index <= 1.05x), which the monthly write-up had been describing as the volatility cap. Output byte-identical (verified by this release).\n\n[patch (byte-exact, verified): engine-only: vol rows carry a diagnostic role tag (absolute/active) the solver never reads; diff:engine identical]"
+}
