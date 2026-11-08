@@ -6,9 +6,9 @@
   "version_minor": 2,
   "version_patch": 0,
   "config_sha256": "a7c663e2125c3a34cd9f55606202efca42d91c709c9a27daee2460fd3497c3a3",
-  "engine_sha256": "c6b6f715a1f02e1a8bd33311378f32f1b9a49d8ebb79667c0e673d7d3be7729b",
+  "engine_sha256": "2105425dbd256b099fc64672f0beaee6c773583f0e68590cfc01322b085ea1a8",
   "engine_version": "engine-2026.07",
-  "released_at": "2026-11-08T16:22:22.797Z",
+  "released_at": "2026-11-08T17:13:04.662Z",
   "released_by": "release:champion",
-  "changelog": "v9.2 (no change to the model): re-cut on the merged engine (c6b6f715) so the release record describes the code that will run. Output byte-exact with v9.1.1 (pnpm diff:engine empty; same config). Numbered v9.2 rather than a patch so both champions print on v9.2 streams from 30 Nov; the etf-preserve/v9.2 genesis will carry succeeds → etf-preserve/v9.1.\n\n[acceptance gate skipped: config identical to the active v9.1.1; engine change is default-off levered/financing code + the local price cache, proven byte-exact by pnpm diff:engine (empty). Numbered v9.2 for consistency with Growth (Devon 2026-11-08).]"
+  "changelog": "v9.2 (no change to the model): re-cut on the merged engine (c6b6f715) so the release record describes the code that will run. Output byte-exact with v9.1.1 (pnpm diff:engine empty; same config). Numbered v9.2 rather than a patch so both champions print on v9.2 streams from 30 Nov; the etf-preserve/v9.2 genesis will carry succeeds → etf-preserve/v9.1.\n\n[acceptance gate skipped: config identical to the active v9.1.1; engine change is default-off levered/financing code + the local price cache, proven byte-exact by pnpm diff:engine (empty). Numbered v9.2 for consistency with Growth (Devon 2026-11-08).]\n\n— superseded in place 2026-11-08 —\nv9.2 re-cut on the merged engine so the release record describes the code that will print on 30 Nov. Byte-exact (verified by the --patch backtest; pnpm diff:engine empty; config unchanged). Supersedes the pending v9.2 in place.\n\n[patch (byte-exact, verified): engine-only: merged default-off leverage/financing code, local price disk cache and priceCache memo fix — diff:engine empty, same config]"
 }
