@@ -236,7 +236,7 @@
     "strategy": "ETF Preserve",
     "version": "v9.2",
     "config_sha256": "4a95aeab974278e4d3068834a95dbfd4838de1af3b0aab7903c8d540dc88a631",
-    "engine_sha256": "15825856dd7dd9396d2d402d8b52fee13d45af0f9e2e64410029ac0bf00695b6",
-    "released_at": "2026-11-08T20:05:07.197Z"
+    "engine_sha256": "7584d0e982859c40bec989426303e175f52483fbd911dd775cac9ad60ca9988d",
+    "released_at": "2026-11-08T22:29:53.465Z"
   }
 ]
