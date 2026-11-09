@@ -112,6 +112,14 @@
     "released_at": "2026-11-09T15:33:09.491Z"
   },
   {
+    "strategy_slug": "etf-leveraged-growth",
+    "strategy": "ETF Leveraged Growth",
+    "version": "v9.2",
+    "config_sha256": "45d2aeea1dfc4ed38184ae3f9aa7141ff57d69dfa79830d20cd66963610d8c78",
+    "engine_sha256": "9701e9ce0e70de0e32edd403e814500138430f827022f94845474ea91698bc68",
+    "released_at": "2026-11-09T15:39:08.265Z"
+  },
+  {
     "strategy_slug": "etf-preserve",
     "strategy": "ETF Preserve",
     "version": "v6.0",

@@ -1,0 +1,14 @@
+{
+  "strategy": "ETF Leveraged Growth",
+  "strategy_slug": "etf-leveraged-growth",
+  "version": "v9.2",
+  "version_major": 9,
+  "version_minor": 2,
+  "version_patch": 0,
+  "config_sha256": "45d2aeea1dfc4ed38184ae3f9aa7141ff57d69dfa79830d20cd66963610d8c78",
+  "engine_sha256": "9701e9ce0e70de0e32edd403e814500138430f827022f94845474ea91698bc68",
+  "engine_version": "engine-2026.07",
+  "released_at": "2026-11-09T15:39:08.265Z",
+  "released_by": "release:champion",
+  "changelog": "Leveraged Growth launches: Growth's picks, held through 2x/3x leveraged ETFs where the expected extra return beats decay and fees (stage-2 financing, all or nothing per pick), under a held-book volatility budget; shock de-lever; no K-1 funds. Rail B judged against the S&P 500 at the model's own exposure (the-walk-leveraged L22).\n\n[acceptance gate skipped: L21 panel: floors pass every arm; L22 leverage-aware Rail B passes every arm (4.0/5.0/5.5/5.3% vs 6%). The gate would compare LG with its own staged row.]"
+}
