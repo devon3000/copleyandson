@@ -5,10 +5,10 @@
   "version_major": 9,
   "version_minor": 2,
   "version_patch": 0,
-  "config_sha256": "45d2aeea1dfc4ed38184ae3f9aa7141ff57d69dfa79830d20cd66963610d8c78",
-  "engine_sha256": "9701e9ce0e70de0e32edd403e814500138430f827022f94845474ea91698bc68",
+  "config_sha256": "80ad973c3ee8245a996ed17eddbdfc21a368ec3aee0aef63d3d7b7f8de9a8c2c",
+  "engine_sha256": "fa45ea2cb9b4998adb48f8b5934372e8592cc3eccc87975720fdd9a5ef74026c",
   "engine_version": "engine-2026.07",
-  "released_at": "2026-11-09T15:39:08.265Z",
+  "released_at": "2026-11-13T06:07:17.131Z",
   "released_by": "release:champion",
-  "changelog": "Leveraged Growth launches: Growth's picks, held through 2x/3x leveraged ETFs where the expected extra return beats decay and fees (stage-2 financing, all or nothing per pick), under a held-book volatility budget; shock de-lever; no K-1 funds. Rail B judged against the S&P 500 at the model's own exposure (the-walk-leveraged L22).\n\n[acceptance gate skipped: L21 panel: floors pass every arm; L22 leverage-aware Rail B passes every arm (4.0/5.0/5.5/5.3% vs 6%). The gate would compare LG with its own staged row.]"
+  "changelog": "Leveraged Growth launches: Growth's picks, held through 2x/3x leveraged ETFs where the expected extra return beats decay and fees (stage-2 financing, all or nothing per pick), under a held-book volatility budget; shock de-lever; no K-1 funds. Rail B judged against the S&P 500 at the model's own exposure (the-walk-leveraged L22).\n\n[acceptance gate skipped: L21 panel: floors pass every arm; L22 leverage-aware Rail B passes every arm (4.0/5.0/5.5/5.3% vs 6%). The gate would compare LG with its own staged row.]\n\n— superseded in place 2026-11-13 —\nCash held as T-bills: the model's unallocated weight is published and valued as SGOV (BIL before it traded), so the signal says what to buy and subscribers earn what the backtest credits. Selection unchanged.\n\n[acceptance gate skipped: cash_vehicle only: the model's cash held as SGOV (BIL before 2020); measured CAGR 31.13→31.12%, worst decline unchanged (1st-of-month, end 2026-10-30)]"
 }
